@@ -1,2 +1,2 @@
 # React-Blog
-A react blog
+A blog built using react
