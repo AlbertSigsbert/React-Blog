@@ -9,7 +9,25 @@ export const StyledNavbar = styled.nav`
   font-size: 24px;
   font-weight: 600;
 
-  ul {
+  a {
+    color: #fff;
+  }
+
+  .active {
+    color: #c0c0c0;
+  }
+
+  .logo {
+    color: #fff;
+    font-size: 40px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .nav{
+   
     display: flex;
     align-items: center;
 
@@ -26,13 +44,53 @@ export const StyledNavbar = styled.nav`
         }
       }
     }
+  }
+  
+  div {
+    display: none;
+  }
+
+  @media (max-width: 700px) {
+
+    display: block;
+   
 
     .logo {
-      font-size: 40px;
-      font-style: italic;
+      font-size: 30px;
+    
+    }
 
-      &:hover {
-        text-decoration: none;
+   .nav{
+     display: none;
+   }
+    
+    .nav-active{
+      margin: 2rem 0;
+      text-align: center;
+      padding: 2rem 0;
+      li{
+      margin-bottom: 1em;
+     }
+    }
+    
+    ul:first-of-type {
+      margin-top: 20vh;
+    }
+    ul:last-of-type{
+      li:first-child {
+        display: none;
+      }
+    }
+
+  
+    div {
+      display: block;
+      position: absolute;
+      top: 3vh;
+      right: 3vw;
+
+      a:last-child {
+        margin: 0 1em;
       }
     }
   }

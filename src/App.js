@@ -1,7 +1,10 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Authors from "./pages/Authors";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Tags from "./pages/Tags";
 import { GlobalStyles } from "./styled/Global";
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/authors" element={<Authors />} />
+            <Route path="/tags" element={<Tags />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>

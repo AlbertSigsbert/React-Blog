@@ -1,11 +1,11 @@
 import { Container } from "../styled/Container.styled";
 
-function Home(props) {
+function Authors(props) {
     return (
         <Container>
-             <h1>This is Home Page.</h1>
+            <h1>This is Authors Page.</h1>
         </Container>
     );
 }
 
-export default Home;
+export default Authors;

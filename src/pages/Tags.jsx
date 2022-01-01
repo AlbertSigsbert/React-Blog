@@ -1,11 +1,11 @@
 import { Container } from "../styled/Container.styled";
 
-function Home(props) {
+function Tags(props) {
     return (
         <Container>
-             <h1>This is Home Page.</h1>
+             <h1>This is Tags Page.</h1>
         </Container>
     );
 }
 
-export default Home;
+export default Tags;
