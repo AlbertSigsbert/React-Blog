@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { StyledNavbar } from "../styled/Navbar.styled";
 import { HiMenu, HiX } from "react-icons/hi";
 import Search from "./Search";
+import { StyledButton } from "../styled/Button.styled";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -51,7 +52,9 @@ function Navbar() {
             <Link to="/signup">Sign Up</Link>
           </li>
           <li>
-            <Link to="/signin">Sign In</Link>
+            <StyledButton>
+             <Link to="/signin">Sign In</Link>
+            </StyledButton>
           </li>
         </ul>
      

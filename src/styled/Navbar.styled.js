@@ -5,13 +5,10 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin: 20px 40px;
-  font-family: "Nunito Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
 
-  a {
-    color: #fff;
-  }
+
 
   .active {
     color: #c0c0c0;
@@ -27,7 +24,6 @@ export const StyledNavbar = styled.nav`
   }
 
   .nav{
-   
     display: flex;
     align-items: center;
 
@@ -37,7 +33,6 @@ export const StyledNavbar = styled.nav`
         margin-top: 4px;
       }
       a {
-        color: #fff;
 
         &:hover {
           text-decoration: underline;
@@ -50,7 +45,7 @@ export const StyledNavbar = styled.nav`
     display: none;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
 
     display: block;
    
