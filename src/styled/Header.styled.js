@@ -4,13 +4,7 @@ export const StyledHeader = styled.header`
   height: 100vh;
   width: 100%;
   overflow: hidden;
-  background: #1e2631;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(rgb(72, 0, 72, 0.8), rgba(2, 0, 36, 1)),
-    url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  margin-bottom: 4rem;
   h1 {
     font-size: 78px;
     font-style: italic;
@@ -18,20 +12,36 @@ export const StyledHeader = styled.header`
     font-family: "EB Garamond", serif;
     line-height: 1.2;
     padding: 3rem 0;
+    width: 85%;
   }
 
   p {
+    width: 80%;
     font-size: 28px;
-    
     line-height: 1.65;
     margin-bottom: 3rem;
   }
+
+  
+/* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    height: auto;
+}
   @media (max-width: 768px) {
+    height: auto;
     h1,p {
       width: 90%;
     }
   }
+
   @media (max-width: 576px) {
+    height: auto;
+   
+
     h1 {
       font-size: 42px;
       line-height: 1;

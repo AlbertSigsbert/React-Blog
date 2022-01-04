@@ -1,10 +1,10 @@
 import React from "react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { StyledNavbar } from "../styled/Navbar.styled";
+import { StyledNavbar } from "../../styled/Navbar.styled";
 import { HiMenu, HiX } from "react-icons/hi";
 import Search from "./Search";
-import { StyledButton } from "../styled/Button.styled";
+import { StyledButton } from "../../styled/Button.styled";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
