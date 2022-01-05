@@ -31,7 +31,7 @@ export const Posts = [
       title:"Spiderman No Way Home Review",
       slug:"spiderman-no-way-home-review",
       image:"https://c4.wallpaperflare.com/wallpaper/763/710/546/spiderman-no-way-home-spiderverse-superhero-movies-digital-hd-wallpaper-preview.jpg",
-      author:"Jackson Salamakes",
+      author:"Sarah Logan",
       isFeatured:true,
       tag:"Cinema"
     },

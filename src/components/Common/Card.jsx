@@ -5,7 +5,7 @@ function Card({ item }) {
   return (
     <StyledCard>
       <Link to={item.slug} className="global-link"></Link>
-      <img src={item.image} alt={item.title} />
+      <img src={item.image} alt={item.title} className="global-image"/>
       <div className="item-content">
         <small>Featured</small>
         <h2>

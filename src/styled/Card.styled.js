@@ -12,29 +12,10 @@ export const StyledCard = styled.article`
   transition: transform 0.2s ease;
   border-radius: 34px;
   background: #2a343e;
-  opacity: .8;
-  
-  &:hover{
-    transform: translateY(-4px);
-  }
+  opacity: 0.8;
 
-  .global-link {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  img {
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
+  &:hover {
+    transform: translateY(-4px);
   }
 
   .item-content {
@@ -42,5 +23,20 @@ export const StyledCard = styled.article`
     width: 100%;
     max-width: 440px;
     align-self: flex-end;
+   
+
+    h2 {
+      font-size: 28px;
+      color: #808080;
+    }
+    small {
+      font-size: 12px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
   }
 `;
