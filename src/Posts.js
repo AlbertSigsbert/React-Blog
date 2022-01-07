@@ -6,7 +6,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/792/802/540/cristiano-ronaldo-real-madrid-ballon-d-or-wallpaper-preview.jpg",
       author:"Emily Smith",
       isFeatured:false,
-      tag:"Sports"
+      tag:"Sports",
+      published_at: "2022-11-26",
     },
     {
       id:2,
@@ -15,7 +16,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/801/330/425/laravel-php-code-simple-wallpaper-preview.jpg",
       author:"Mccalister Nicolaus",
       isFeatured:true,
-      tag:"Tech"
+      tag:"Tech",
+      published_at: "2022-01-26",
     },
     {
       id:3,
@@ -24,7 +26,8 @@ export const Posts = [
       image:"https://i1.sndcdn.com/artworks-000899207863-m5drju-t500x500.jpg",
       author:"James Mcgee",
       isFeatured:false,
-      tag:"Music"
+      tag:"Music",
+      published_at: "2022-02-26",
     },
     {
       id:4,
@@ -33,7 +36,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/763/710/546/spiderman-no-way-home-spiderverse-superhero-movies-digital-hd-wallpaper-preview.jpg",
       author:"Sarah Logan",
       isFeatured:true,
-      tag:"Cinema"
+      tag:"Cinema",
+      published_at: "2022-03-26",
     },
     {
       id:5,
@@ -42,7 +46,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/426/395/739/champions-league-uefa-soccer-wallpaper-preview.jpg",
       author:"Emily Smith",
       isFeatured:false,
-      tag:"Sports"
+      tag:"Sports",
+      published_at: "2022-04-26",
     },
     {
       id:6,
@@ -51,7 +56,8 @@ export const Posts = [
       image:"https://valuelogic.one/blog/wp-content/uploads/2020/11/Svelte-blogpost.png",
       author:"Mccalister Nicolaus",
       isFeatured:false,
-      tag:"Tech"
+      tag:"Tech",
+      published_at: "2022-05-26",
     },
     {
       id:7,
@@ -60,7 +66,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/229/551/811/bts-fake-j-hope-jimin-wallpaper-preview.jpg",
       author:"James Mcgee",
       isFeatured:false,
-      tag:"Music"
+      tag:"Music",
+      published_at: "2022-06-26",
     },
     {
       id:8,
@@ -69,7 +76,8 @@ export const Posts = [
       image:"https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/A9DF1171_458C_4D7B_A253_573AF2ED7CB6.png",
       author:"Jackson Salamakes",
       isFeatured:false,
-      tag:"Cinema"
+      tag:"Cinema",
+      published_at: "2022-07-16",
     },
     {
       id:9,
@@ -78,7 +86,8 @@ export const Posts = [
       image:"https://assets.turbologo.com/blog/en/2020/01/19084653/Premier-League-symbol.png",
       author:"Emily Smith",
       isFeatured:false,
-      tag:"Sports"
+      tag:"Sports",
+      published_at: "2022-01-12",
     },
     {
       id:10,
@@ -87,7 +96,8 @@ export const Posts = [
       image:"https://www.pngitem.com/pimgs/m/12-120179_best-free-ruby-png-ruby-programming-language-logo.png",
       author:"Mccalister Nicolaus",
       isFeatured:false,
-      tag:"Tech"
+      tag:"Tech",
+      published_at: "2022-04-11",
     },
     {
       id:11,
@@ -96,7 +106,8 @@ export const Posts = [
       image:"https://www.kindpng.com/picc/m/490-4901925_bet-awards-logo-transparent-hd-png-download.png",
       author:"James Mcgee",
       isFeatured:false,
-      tag:"Music"
+      tag:"Music",
+      published_at: "2022-12-26",
     },
     {
       id:12,
@@ -105,7 +116,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/792/423/674/dune-series-dunes-desert-tv-series-science-fiction-hd-wallpaper-preview.jpg",
       author:"Jackson Salamakes",
       isFeatured:false,
-      tag:"Cinema"
+      tag:"Cinema",
+      published_at: "2023-12-31",
     },
     {
       id:13,
@@ -114,7 +126,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/837/385/136/barcelona-fc-barcelona-stadium-camp-nou-wallpaper-preview.jpg",
       author:"Emily Smith",
       isFeatured:true,
-      tag:"Sports"
+      tag:"Sports",
+      published_at: "2022-03-19",
     },
     {
       id:14,
@@ -123,7 +136,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/562/372/1012/programmers-javascript-minimalism-wallpaper-preview.jpg",
       author:"Mccalister Nicolaus",
       isFeatured:false,
-      tag:"Tech"
+      tag:"Tech",
+      published_at: "2022-08-12",
     },
     {
       id:15,
@@ -132,7 +146,8 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/418/665/208/music-green-minimalism-logo-wallpaper-preview.jpg",
       author:"James Mcgee",
       isFeatured:false,
-      tag:"Music"
+      tag:"Music",
+      published_at: "2022-09-10",
     },
     {
       id:16,
@@ -141,6 +156,7 @@ export const Posts = [
       image:"https://c4.wallpaperflare.com/wallpaper/566/384/903/james-bond-skyfall-film-stills-movies-wallpaper-preview.jpg",
       author:"Jackson Salamakes",
       isFeatured:true,
-      tag:"Cinema"
+      tag:"Cinema",
+      published_at: "2022-01-31",
     },
 ]
