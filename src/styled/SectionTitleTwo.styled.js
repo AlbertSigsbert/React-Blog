@@ -1,12 +1,10 @@
 import styled from "styled-components";
 
-export const StyledTitle = styled.div`
+export const StyledSectionTitleTwo = styled.div`
   display: flex;
   align-items: center;
   max-width: 100%;
   margin: 3vh 1vw;
-  margin-top: 4rem;
-
   h3 {
     font-size: 68px;
     font-weight: 400;
@@ -35,5 +33,19 @@ export const StyledTitle = styled.div`
       margin-left: 40px;
       fill: #fff;
     }
+  }
+
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 576px) {
+    h3 {
+      font-size: 48px;
+    }
+  }
+  @media (max-width: 400px) {
+    h3{font-size: 38px;}
   }
 `;

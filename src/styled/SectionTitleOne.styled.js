@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledGlobalTitle = styled.div`
+export const StyledSectionTitleOne = styled.div`
   display: flex;
   align-items: center;
   max-width: 100%;
@@ -69,5 +69,8 @@ export const StyledGlobalTitle = styled.div`
     h3 {
       font-size: 48px;
     }
+  }
+  @media (max-width: 400px) {
+    h3{font-size: 38px;}
   }
 `;

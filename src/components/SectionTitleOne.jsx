@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import { Authors as authors } from "../Authors";
 import { Container } from "../styled/Container.styled";
-import { StyledGlobalTitle } from "../styled/GlobalTitle.styled";
-function GlobalTitle(props) {
+import { StyledSectionTitleOne } from "../styled/SectionTitleOne.styled";
+
+function SectionTitleOne(props) {
   return (
     <Container>
-      <StyledGlobalTitle>
+      <StyledSectionTitleOne>
         <h3>
           See what we’ve <span>written lately</span>
         </h3>
@@ -27,9 +28,9 @@ function GlobalTitle(props) {
           ))}
           <span>Meet our top authors</span>
         </div>
-      </StyledGlobalTitle>
+      </StyledSectionTitleOne>
     </Container>
   );
 }
 
-export default GlobalTitle;
+export default SectionTitleOne;

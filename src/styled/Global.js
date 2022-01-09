@@ -23,6 +23,24 @@ export const GlobalStyles = createGlobalStyle`
       color:#fff;
   }
 
+  input, textarea {
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    background-color: transparent;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
   
   .global-link {
     position: absolute;
@@ -45,4 +63,4 @@ export const GlobalStyles = createGlobalStyle`
 
  
   
-`
+`;
