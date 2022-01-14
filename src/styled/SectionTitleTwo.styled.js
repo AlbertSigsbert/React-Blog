@@ -42,7 +42,7 @@ export const StyledSectionTitleTwo = styled.div`
   }
   @media (max-width: 576px) {
     h3 {
-      font-size: 48px;
+      font-size: 42px;
     }
   }
   @media (max-width: 400px) {

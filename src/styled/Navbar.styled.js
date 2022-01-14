@@ -7,8 +7,8 @@ export const StyledNavbar = styled.nav`
   margin: 20px 40px;
   font-size: 24px;
   font-weight: 600;
-
-
+ 
+  
 
   .active {
     color: #c0c0c0;
@@ -23,7 +23,7 @@ export const StyledNavbar = styled.nav`
     }
   }
 
-  .nav{
+  .nav {
     display: flex;
     align-items: center;
 
@@ -33,51 +33,50 @@ export const StyledNavbar = styled.nav`
         margin-top: 4px;
       }
       a {
-
         &:hover {
           text-decoration: underline;
         }
       }
     }
   }
-  
+
   div {
     display: none;
   }
 
-  @media (max-width: 768px) {
 
+
+  @media (max-width: 992px) {
     display: block;
    
+  
 
     .logo {
       font-size: 30px;
-    
     }
 
-   .nav{
-     display: none;
-   }
-    
-    .nav-active{
+    .nav {
+      display: none;
+    }
+
+    .nav-active {
       margin: 2rem 0;
       text-align: center;
       padding: 2rem 0;
-      li{
-      margin-bottom: 1em;
-     }
+      li {
+        margin-bottom: 1em;
+      }
     }
-    
+
     ul:first-of-type {
       margin-top: 20vh;
     }
-    ul:last-of-type{
+    ul:last-of-type {
       li:first-child {
         display: none;
       }
     }
 
-  
     div {
       display: block;
       position: absolute;

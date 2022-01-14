@@ -1,15 +1,22 @@
 import { Link } from "react-router-dom"
 import { Container } from "../styled/Container.styled";
 import { StyledSectionTitleTwo } from "../styled/SectionTitleTwo.styled";
+import { Tags as tags, getTags  } from "../Tags";
+import _ from "lodash";
 
-function SectionTitleTwo(props) {
+function SectionTitleTwo({blog}) {
+
+  const [tag] = blog ? getTags(blog.tags) : [_.sample(tags)] ;
   return (
     <Container>
       <StyledSectionTitleTwo>
-        <h3>
+        {blog ? ( <h3>
+          Others from <span>{tag.name}</span>
+        </h3>) : ( <h3>
           In case you <span>missed it</span>
-        </h3>
-        <Link to={"/tag/lifestyle/"} aria-label="Link to the collection">
+        </h3>)}
+       
+        <Link to={ "/tag/" + tag.name } aria-label="Link to the collection">
           <svg
             role="img"
             viewBox="0 0 24 24"

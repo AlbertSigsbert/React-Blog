@@ -31,7 +31,7 @@ export const StyledHeader = styled.header`
   and (-webkit-min-device-pixel-ratio: 1.5) {
     height: auto;
 }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
     height: auto;
     h1,p {
       width: 90%;

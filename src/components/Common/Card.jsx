@@ -1,18 +1,24 @@
 import { Link } from "react-router-dom";
 import { StyledCard } from "../../styled/Card.styled";
+import { getAuthors } from "../../Authors";
 
 function Card({ item }) {
+  const authors = getAuthors(item.authors);
   return (
     <StyledCard>
       <Link to={item.slug} className="global-link"></Link>
-      <img src={item.image} alt={item.title} className="global-image"/>
+      <img src={item.image} alt={item.title} className="global-image" />
       <div className="item-content">
         <small>Featured</small>
         <h2>
           <Link to={item.slug}>{item.title}</Link>
         </h2>
         <div>
-          <Link to={"/authors/" + item.author}>{item.author}</Link>
+          {authors.map((author, i) => (
+            <Link key={author.id} to={"/authors/" + author.name}>
+              {author.name} {i < authors.length - 1 ? " & " : ""}
+            </Link>
+          ))}
         </div>
       </div>
     </StyledCard>
