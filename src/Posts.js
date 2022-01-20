@@ -32,7 +32,7 @@ export const Posts = [
     title: "Billboard top 100 songs",
     slug: "billboard-top-100-songs",
     image: "https://i.scdn.co/image/ab67706c0000bebb3bd5501a335b265807df34db",
-    authors: [3],
+    authors: [3,5],
     isFeatured: false,
     visibility: "private",
     tags: [3, 7],
@@ -46,7 +46,7 @@ export const Posts = [
     slug: "spiderman-no-way-home-review",
     image:
       "https://c4.wallpaperflare.com/wallpaper/763/710/546/spiderman-no-way-home-spiderverse-superhero-movies-digital-hd-wallpaper-preview.jpg",
-    authors: [4],
+    authors: [4,5],
     isFeatured: true,
     visibility: "public",
     tags: [4],
@@ -76,7 +76,7 @@ export const Posts = [
     slug: "svelte-upcoming-best-js-framework",
     image:
       "https://valuelogic.one/blog/wp-content/uploads/2020/11/Svelte-blogpost.png",
-    authors: [2],
+    authors: [2,5],
     isFeatured: false,
     visibility: "public",
     tags: [2],
@@ -123,7 +123,7 @@ export const Posts = [
     slug: "should-EPL-be-postponed",
     image:
       "https://assets.turbologo.com/blog/en/2020/01/19084653/Premier-League-symbol.png",
-    authors: [1],
+    authors: [1,6],
     isFeatured: false,
     visibility: "private",
     tags: [1, 6],
@@ -139,7 +139,7 @@ export const Posts = [
     slug: "why-you-should-learn-ruby-2022",
     image:
       "https://www.pngitem.com/pimgs/m/12-120179_best-free-ruby-png-ruby-programming-language-logo.png",
-    authors: [2],
+    authors: [2,7],
     isFeatured: false,
     visibility: "public",
     tags: [2],
@@ -155,7 +155,7 @@ export const Posts = [
     slug: "BET-awards-2022-results",
     image:
       "https://media.gettyimages.com/photos/award-on-display-in-the-press-room-at-the-2012-bet-awards-at-the-on-picture-id147545448",
-    authors: [3],
+    authors: [3,8],
     isFeatured: false,
     visibility: "public",
     tags: [3],
@@ -171,7 +171,7 @@ export const Posts = [
     slug: "dune-2-review",
     image:
       "https://i.pinimg.com/originals/ca/5b/91/ca5b9160371f176a522a110136e2dcc1.jpg",
-    authors: [4],
+    authors: [4,7],
     isFeatured: false,
     visibility: "public",
     tags: [4],
@@ -187,7 +187,7 @@ export const Posts = [
     slug: "can-xavi-revive-barcelona",
     image:
       "https://c4.wallpaperflare.com/wallpaper/837/385/136/barcelona-fc-barcelona-stadium-camp-nou-wallpaper-preview.jpg",
-    authors: [1, 4],
+    authors: [1, 4,6],
     isFeatured: true,
     visibility: "public",
     tags: [1],
@@ -203,7 +203,7 @@ export const Posts = [
     slug: "js-array-methods-every-developer-must-know",
     image:
       "https://c4.wallpaperflare.com/wallpaper/562/372/1012/programmers-javascript-minimalism-wallpaper-preview.jpg",
-    authors: [2, 3],
+    authors: [2, 3,8],
     isFeatured: false,
     visibility: "public",
     tags: [2,5],

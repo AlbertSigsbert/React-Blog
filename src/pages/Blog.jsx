@@ -10,28 +10,29 @@ import SectionTitleTwo from "../components/SectionTitleTwo";
 import SectionTitleThree from "../components/SectionTitleThree";
 import OtherPosts from "../components/OtherPosts";
 import Footer from "../components/Common/Footer";
+import SubscribeCTA from "../components/SubscribeCTA";
 
 function Blog(props) {
-
   const { blogSlug } = useParams();
   const [blog] = posts.filter((post) => post.slug === blogSlug);
   const [currentBlogID, setCurrentBlogID] = useState(blog.id);
 
   useEffect(() => {
     setCurrentBlogID(blog.id);
-  },[blog.id]);
+  }, [blog.id]);
 
   return (
     <>
       <BlogHeader blog={blog} />
       <BlogPost blog={blog} />
+      {blog.visibility === "private" && <SubscribeCTA />}
       <BlogSocials />
       <NextPrevCards blog={blog} currentBlogID={currentBlogID} />
-      <Disqux blog={blog}/>
-      <SectionTitleTwo blog={blog}/>
-      <OtherPosts/>
+      {blog.visibility === "public" && <Disqux blog={blog} />}
+      <SectionTitleTwo blog={blog} />
+      <OtherPosts />
       <SectionTitleThree />
-      <Footer/>
+      <Footer />
     </>
   );
 }

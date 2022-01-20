@@ -8,6 +8,7 @@ export const StyledLatestPost = styled.div`
   article:nth-of-type(5n+1){
    grid-column:1/3;
   }
+ 
   
   /* Ipad Only */
   @media all and (device-width: 768px) and (device-height: 1024px) {

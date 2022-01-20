@@ -15,7 +15,7 @@ function Card({ item }) {
         </h2>
         <div>
           {authors.map((author, i) => (
-            <Link key={author.id} to={"/authors/" + author.name}>
+            <Link key={author.id} to={"/author/" + author.name}>
               {author.name} {i < authors.length - 1 ? " & " : ""}
             </Link>
           ))}

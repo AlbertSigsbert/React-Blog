@@ -1,12 +1,15 @@
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Routes, Route } from "react-router-dom";
 import Authors from "./pages/Authors";
+import AuthorPage from "./pages/AuthorPage";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Tags from "./pages/Tags";
 import ScrollToTop from "./components/ScrollToTop";
 import { GlobalStyles } from "./styled/Global";
+import TagPage from "./pages/TagPage";
+
 function App() {
   return (
     <HelmetProvider>
@@ -29,11 +32,13 @@ function App() {
         <main>
           <ScrollToTop>
             <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/authors" element={<Authors />} />
+              <Route path="/" element={<Home/>} />
+              <Route path="/authors" element={<Authors/>} />
+              <Route path="/author/:authorName" element={<AuthorPage/>} />
               <Route path="/tags" element={<Tags />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/:blogSlug" element={<Blog />} />
+              <Route path="/tag/:tagName" element={<TagPage/>} />
+              <Route path="/contact" element={<Contact/>} />
+              <Route path="/:blogSlug" element={<Blog/>} />
             </Routes>
           </ScrollToTop>
         </main>

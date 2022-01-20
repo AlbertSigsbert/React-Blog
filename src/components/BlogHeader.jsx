@@ -51,8 +51,8 @@ function BlogHeader({ blog }) {
                 ))}
 
                 <p>
-                  {moment(blog.published_at).format("MMM DD,YYYY")} .{" "}
-                  {blog.reading_time}minutes read
+                  {moment(blog.published_at).format("MMM DD, YYYY")} .{" "}
+                  {blog.reading_time} minutes read
                 </p>
               </div>
             </div>

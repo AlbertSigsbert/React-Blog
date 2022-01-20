@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import { Authors as authors } from "../Authors";
+import { Authors  } from "../Authors";
 import { Container } from "../styled/Container.styled";
 import { StyledSectionTitleOne } from "../styled/SectionTitleOne.styled";
 
 function SectionTitleOne(props) {
+  const authors = Authors.sort((a, b) => b.postCount - a.postCount).slice(0, 4);
   return (
     <Container>
       <StyledSectionTitleOne>
@@ -15,7 +16,7 @@ function SectionTitleOne(props) {
           {authors.map((author) => (
             <div className="author" key={author.id}>
               <Link
-                to={"/authors/" + author.name}
+                to={"/author/" + author.name}
                 className="global-link"
               ></Link>
               <img
