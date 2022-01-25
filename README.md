@@ -16,7 +16,7 @@ This is a blog made using ReactJS and fake JSON data backend
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Authors](#authors)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
