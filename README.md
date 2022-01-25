@@ -2,9 +2,6 @@
 
 This is a blog made using ReactJS and fake JSON data backend
 
-<img src="public/images/desktop-preview.jpg">
-
-
 ## Table of contents
 
 - [Overview](#overview)
