@@ -31,12 +31,12 @@ Users can:
 
                 This is a desktop View.
                  
-<img src="public/images/desktop_view.png">
+<img src="public/desktop_view.png">
 
                  This is for mobile view taken on a Pixel 2.
                  
   <p align="center">
-   <img src="public/images/mobile_view.png" height="500px">
+   <img src="public/mobile_view.png" height="500px">
   </p>
   
 ### Links
