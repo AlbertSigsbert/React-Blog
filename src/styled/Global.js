@@ -33,7 +33,10 @@ export const GlobalStyles = createGlobalStyle`
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    overflow: visible;
 }
+
+
 
 button, input, optgroup, select, textarea {
     font-family: inherit;

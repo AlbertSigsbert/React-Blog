@@ -15,7 +15,7 @@ function Header(props) {
           tenetur architecto pariatur?
         </p>
         <StyledButton>
-          <Link to="/subscribe">Become a Subscriber</Link>
+          <Link to="/membership">Become a Subscriber</Link>
         </StyledButton>
       </Container>
     </StyledHeader>

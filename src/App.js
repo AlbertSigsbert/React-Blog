@@ -6,9 +6,17 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Tags from "./pages/Tags";
+import Membership from "./pages/Membership";
 import ScrollToTop from "./components/ScrollToTop";
 import { GlobalStyles } from "./styled/Global";
 import TagPage from "./pages/TagPage";
+import AlgoliaSearch from "./components/Common/AlgoliaSearch";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
+import Account from "./pages/Account";
+import About from "./pages/About";
+import More from "./pages/More";
+
 
 function App() {
   return (
@@ -39,6 +47,13 @@ function App() {
               <Route path="/tag/:tagName" element={<TagPage/>} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/:blogSlug" element={<Blog/>} />
+              <Route path="/search" element={<AlgoliaSearch/>} />
+              <Route path="/membership" element={<Membership/>}/>
+              <Route path="/signin" element={<SignIn/>}/>
+              <Route path="/signup" element={<SignUp/>}/>
+              <Route path="/account" element={<Account/>}/>
+              <Route path="/about" element={<About/>}/>
+              <Route path="/more" element={<More/>}/>
             </Routes>
           </ScrollToTop>
         </main>

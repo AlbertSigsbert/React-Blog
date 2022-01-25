@@ -1,10 +1,10 @@
 import {Centre} from "../styled/Center.styled";
 
-function Contact(props) {
+function Account(props) {
     return <Centre>
-    <h1>Contact Us</h1>
+    <h1>Account</h1>
     <p>To be added soon!!!</p>
 </Centre>;
 }
 
-export default Contact;
+export default Account;
