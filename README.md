@@ -71,7 +71,5 @@ Users can:
 
 ## Authors
 
-
-- Frontend Mentor -https://www.frontendmentor.io/profile/AlbertSigsbert
 - Twitter - https://twitter.com/albert_sigsbert
 - Twitter - https://twitter.com/_micahcodes
